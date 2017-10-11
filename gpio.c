@@ -1,7 +1,9 @@
 /**
  * Various tests of fast GPIO on the Raspberry Pi
  *
- *
+ * Compile with gcc -O2 -o gpio
+ * sudo bash
+ * Run with ./gpio
  */
 #include <stdio.h>
 #include <stdlib.h>
