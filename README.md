@@ -3,7 +3,7 @@ Testing and documenting various fast GPIO methods for Raspberry Pi
 
 # Description of tests
 ## gpio.c
-xxx
+xxx yada
 
 # Thanks to...
 This is based on a lot of different work cut'n pasted from various sources. 
