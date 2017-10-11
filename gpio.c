@@ -1,11 +1,8 @@
-//
-//  How to access GPIO registers from C-code on the Raspberry-Pi
-//  Example program
-//  15-January-2012
-//  Dom and Gert
-//  Revised: 15-Feb-2013
-
-
+/**
+ * Various tests of fast GPIO on the Raspberry Pi
+ *
+ *
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -14,6 +11,7 @@
 #include <unistd.h>
 
 // Access from ARM Running Linux
+// 0x20000000 for Rpi Zero
 #define BCM2708_PERI_BASE ( 0x20000000 )
 // GPIO controller
 #define GPIO_BASE         ( BCM2708_PERI_BASE + 0x200000 ) 
